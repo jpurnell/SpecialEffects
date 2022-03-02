@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+// Based on https://www.hackingwithswift.com/articles/246/special-effects-with-swiftui
 struct SpecialEffectsApp: App {
     var body: some Scene {
         WindowGroup {

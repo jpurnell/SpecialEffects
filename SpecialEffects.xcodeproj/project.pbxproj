@@ -17,6 +17,12 @@
 		72F0133027C9616B00AA2563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0130627C9616A00AA2563 /* ContentView.swift */; };
 		72F0133127C9616B00AA2563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F0130727C9616B00AA2563 /* Assets.xcassets */; };
 		72F0133227C9616B00AA2563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F0130727C9616B00AA2563 /* Assets.xcassets */; };
+		72F0134227C9617E00AA2563 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0134127C9617E00AA2563 /* Particle.swift */; };
+		72F0134327C9617E00AA2563 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0134127C9617E00AA2563 /* Particle.swift */; };
+		72F0134527C9619600AA2563 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0134427C9619600AA2563 /* ParticleSystem.swift */; };
+		72F0134627C9619600AA2563 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0134427C9619600AA2563 /* ParticleSystem.swift */; };
+		72F0134B27CBCE8D00AA2563 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0134A27CBCE8D00AA2563 /* MotionManager.swift */; };
+		72F0134C27CBCE8D00AA2563 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F0134A27CBCE8D00AA2563 /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		72F0132527C9616B00AA2563 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F0132927C9616B00AA2563 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		72F0132B27C9616B00AA2563 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		72F0134127C9617E00AA2563 /* Particle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Particle.swift; path = ../../Particle.swift; sourceTree = "<group>"; };
+		72F0134427C9619600AA2563 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
+		72F0134A27CBCE8D00AA2563 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,9 @@
 			children = (
 				72F0130527C9616A00AA2563 /* SpecialEffectsApp.swift */,
 				72F0130627C9616A00AA2563 /* ContentView.swift */,
+				72F0134A27CBCE8D00AA2563 /* MotionManager.swift */,
+				72F0134127C9617E00AA2563 /* Particle.swift */,
+				72F0134427C9619600AA2563 /* ParticleSystem.swift */,
 				72F0130727C9616B00AA2563 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F0134527C9619600AA2563 /* ParticleSystem.swift in Sources */,
+				72F0134B27CBCE8D00AA2563 /* MotionManager.swift in Sources */,
 				72F0132F27C9616B00AA2563 /* ContentView.swift in Sources */,
+				72F0134227C9617E00AA2563 /* Particle.swift in Sources */,
 				72F0132D27C9616B00AA2563 /* SpecialEffectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F0134627C9619600AA2563 /* ParticleSystem.swift in Sources */,
+				72F0134C27CBCE8D00AA2563 /* MotionManager.swift in Sources */,
 				72F0133027C9616B00AA2563 /* ContentView.swift in Sources */,
+				72F0134327C9617E00AA2563 /* Particle.swift in Sources */,
 				72F0132E27C9616B00AA2563 /* SpecialEffectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
